@@ -1,7 +1,7 @@
 {
     "name": "abuseio/findcontact-custom",
     "description": "AbuseIO module for custom lookups to backend systems.",
-    "version": "1.0.0-dev",
+    "version": "1.1.0",
     "keywords": ["laravel", "abuseio", "findcontact", "custom"],
     "homepage": "http://abuse.io",
     "type": "library",
