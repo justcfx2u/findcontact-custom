@@ -14,7 +14,7 @@ class CustomServiceProvider extends ServiceProvider
     public function boot()
     {
         // Publish config
-        $this->mergeConfigFrom(base_path('vendor/abuseio/findcontact-custom').'/config/Findcontact.php', 'Findcontact');
+        $this->mergeConfigFrom(base_path('vendor/abuseio/findcontact-custom').'/config/Custom.php', 'Findcontact');
     }
 
     /**
