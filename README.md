@@ -4,7 +4,7 @@ findcontact module for custom lookups to backend systems
 ## Installation
 1. Install the package by running this command in your AbuseIO installation folder:
 ```bash
-composer require abuseio/fincontact-custom
+composer require abuseio/findcontact-custom
 ```
 
 #### Talking against an API
