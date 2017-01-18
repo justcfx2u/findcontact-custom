@@ -26,7 +26,7 @@ class Custom
      * @param  string $ip   IPv4 Address
      * @return mixed        Returns email address. If not found, FALSE.
      */
-    public static function getEmailByIp($ipAddress)
+    public static function getContactByIp($ipAddress)
     {
         Config::set('database.connections.findcontact-custom', config('Findcontact.findcontact-custom'));
         if (checkIp6($ipAddress)) {
@@ -47,7 +47,7 @@ class Custom
      * @param  string $ip   Domain name
      * @return mixed        Returns email address. If not found, FALSE.
      */
-    public static function getEmailByDomain($domainName)
+    public static function getContactByDomain($domainName)
     {
         Config::set('database.connections.findcontact-custom', config('Findcontact.findcontact-custom'));
         $domain = Domain::where('domain', $domainName)->first();
